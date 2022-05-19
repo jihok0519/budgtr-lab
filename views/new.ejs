@@ -8,11 +8,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
     <title>New Budgets</title>
 </head>
-<h1>New Budgets</h1>
+<h1>ADD A NEW ITEM</h1>
 <body>
     <div class="container">
         <form action="/budgets/" method="POST">
-            Date
+            Date: <input type="text" name="date" placeholder="Date" /><br />
+            Name: <input type="text" name="name"placeholder="Name" /><br />
+            Amount: <input type="text" name="amount" placeholder="Amount" /><br />
+            From: <input type="text" name="from "placeholder="From" /><br />
+            tags: <input type="text" name="tags" placeholder="Tags" /><br />
+            Submit: <input type="submit" value="CREATE NEW ITEM">
         </form>
     </div>
 </body>
